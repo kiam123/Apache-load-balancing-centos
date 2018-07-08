@@ -1,4 +1,4 @@
-FROM httpd:2.4.33-alpine
+FROM httpd:2.4.27-alpine
 
 RUN apk update && apk add mc apache2 apache2-proxy
 
